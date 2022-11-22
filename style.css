@@ -41,11 +41,12 @@ h1{
 }
 .form .click{
     cursor: pointer;
-    background: -webkit-gradient(linear, left bottom, left top, from(rgb(151, 204, 130)), to(rgb(7, 197, 7)));
-    background: -o-linear-gradient(bottom, rgb(151, 204, 130), rgb(7, 197, 7));
-    background: linear-gradient(0deg, rgb(151, 204, 130), rgb(7, 197, 7));;
+    background: -o-linear-gradient(left, #FFBA5A, #FFB619);
+    background: -webkit-gradient(linear, left top, right top, from(#FFBA5A), to(#FFB619));
+    background: linear-gradient(90deg, #FFBA5A, #FFB619);;
     margin-top: 20px;
     text-align: center;
+    font-size: 18px;
 }
 .input-block{
     display: -webkit-box;
