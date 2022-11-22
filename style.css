@@ -1,0 +1,63 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white !important;
+    background: -o-linear-gradient(left, rgb(109, 196, 244), rgb(37, 79, 247));
+    background: -webkit-gradient(linear, left top, right top, from(rgb(109, 196, 244)), to(rgb(37, 79, 247)));
+    background: linear-gradient(90deg, rgb(109, 196, 244), rgb(37, 79, 247));
+}
+a, a:hover{
+    text-decoration: none !important;
+    color: white !important;
+}
+.title{
+    margin-top: 60px;
+}
+h1{
+    text-align: center;
+}
+.form-container{
+    margin-top: 40px;
+}
+.form{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-column-gap: 50px;
+       -moz-column-gap: 50px;
+            column-gap: 50px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.form input{
+    margin-top: 20px !important;
+    width: 100%;
+}
+.form .click{
+    cursor: pointer;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(151, 204, 130)), to(rgb(7, 197, 7)));
+    background: -o-linear-gradient(bottom, rgb(151, 204, 130), rgb(7, 197, 7));
+    background: linear-gradient(0deg, rgb(151, 204, 130), rgb(7, 197, 7));;
+    margin-top: 20px;
+    text-align: center;
+}
+.input-block{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-column-gap: 10px !important;
+        -moz-column-gap: 10px !important;
+            column-gap: 10px !important;
+}
+.instruction-link{
+    margin-top: 15px;
+}
